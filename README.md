@@ -14,7 +14,7 @@ Traceback (most recent call last):
     f.close()
   File "/usr/local/lib/python3.7/site-packages/click/_compat.py", line 619, in close
     _replace(self._tmp_filename, self._real_filename)
-OSError: [Errno 16] Device or resource busy: '.__atomic-writee31adfb9' -> '/work/out.txt'<Paste>
+OSError: [Errno 16] Device or resource busy: '.__atomic-writee31adfb9' -> '/work/out.txt'
 ```
 
 All varations of this that I try fail with the same error.
